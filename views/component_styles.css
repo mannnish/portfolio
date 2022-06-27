@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+    background-color: rgb(58, 58, 60);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dadada43;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsla(0, 0%, 79%, 0.47);
+}
+
+.header {
+    height: 90px;
+    display: flex;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}

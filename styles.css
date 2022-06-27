@@ -51,13 +51,6 @@
     height: 100%;
 }
 
-.header {
-    height: 90px;
-    display: flex;
-    padding-left: 8vw;
-    padding-right: 8vw;
-}
-
 .option {
     display: flex;
     justify-content: center;
